@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+    <%- include('./partials/head_link')-%>
+    <link rel="stylesheet" href="/css/companiesInfo.css">
+
+    <title>Company Information</title>
+</head>
+
+<body>
+
+    <%- include('./partials/header')-%>
+
+
+
+    <div class="container">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="container">
+                        <form autocomplete="off">
+                            <div class="flex-sm-row flex-column d-flex">
+                                <div class="col-sm-9 col-12 px-0 mb-2">
+                                    
+                                <button type="button" id="create_employee" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">CTEATE Employee</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <table class="table table-striped table-hover table-bordered" id="table">
+
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal  " id="exampleModal" tabindex="2" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body" id="myModal_company">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <%- include('./partials/footer_link')-%>
+
+
+
+    <script src="/js/companiesInfo.js"></script>
+</body>
+
+</html>

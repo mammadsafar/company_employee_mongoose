@@ -1,0 +1,412 @@
+body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-responsive {
+    margin: 30px 0;
+}
+
+.table-wrapper {
+    min-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+
+.table-title h2 {
+    margin: 8px 0 0;
+    font-size: 22px;
+}
+
+.search-box {
+    position: relative;
+    float: right;
+}
+
+.search-box input {
+    height: 34px;
+    border-radius: 20px;
+    padding-left: 35px;
+    border-color: #ddd;
+    box-shadow: none;
+}
+
+.search-box input:focus {
+    border-color: #3FBAE4;
+}
+
+.search-box i {
+    color: #a0a5b1;
+    position: absolute;
+    font-size: 19px;
+    top: 8px;
+    left: 10px;
+}
+
+table.table tr th,
+table.table tr td {
+    border-color: #e9e9e9;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+    background: #f5f5f5;
+}
+
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+table.table td:last-child {
+    width: 130px;
+}
+
+table.table td a {
+    color: #a0a5b1;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+table.table td a.view {
+    color: #03A9F4;
+}
+
+table.table td a.edit {
+    color: #FFC107;
+}
+
+table.table td a.delete {
+    color: #E34724;
+}
+
+table.table td i {
+    font-size: 19px;
+}
+
+.pagination {
+    float: right;
+    margin: 0 0 5px;
+}
+
+.pagination li a {
+    border: none;
+    font-size: 95%;
+    width: 30px;
+    height: 30px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 30px !important;
+    text-align: center;
+    padding: 0;
+}
+
+.pagination li a:hover {
+    color: #666;
+}
+
+.pagination li.active a {
+    background: #03A9F4;
+}
+
+.pagination li.active a:hover {
+    background: #0397d6;
+}
+
+.pagination li.disabled i {
+    color: #ccc;
+}
+
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+}
+
+.hint-text {
+    float: left;
+    margin-top: 6px;
+    font-size: 95%;
+}
+
+
+
+
+
+
+
+
+.modal-body {
+    display: flex;
+    padding: 0;
+    border-radius: 4rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.modal-content {
+    border-radius: 4rem;
+    width: 140%;
+    -webkit-box-shadow: -1px -2px 42px -19px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: -1px -2px 42px -19px rgba(0, 0, 0, 0.74);
+    box-shadow: -1px -2px 42px -19px rgba(0, 0, 0, 0.74);
+}
+
+.modal-content h1,
+.modal-content h2,
+.modal-content h3 {
+    text-align: center;
+}
+
+.modal-content h1 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.modal-content h2 {
+    font-size: 1.1em;
+}
+
+.modal-content h3 {
+    font-size: .8em;
+    letter-spacing: 2px;
+}
+
+form {
+    font-size: .8em;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.column#main {
+    flex: 75%;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#secondary {
+    background-color: #F9BC35;
+    border-radius: 0 4rem 4rem 0;
+    text-align: center;
+}
+
+#main .form-control {
+    border-radius: 0;
+    font-size: .9em;
+}
+
+.btn {
+    text-transform: uppercase;
+    border-radius: .15rem;
+    width: 200px;
+    padding: .150rem .75rem;
+    margin: 30px auto;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.btn-primary {
+
+    margin: 0 0 0 10px;
+
+    border-color: rgba(255, 255, 255, 0);
+    background: #f1da36;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #f1da36 0%, #fca86c 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f1da36 0%, #fca86c 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f1da36 0%, #fca86c 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1da36', endColorstr='#fca86c', GradientType=1);
+
+}
+
+.btn-primary:hover {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#main .btn-primary {
+    width: 100%;
+}
+
+#secondary .btn-primary {
+    background: #f8f9fa4f;
+    color: #000;
+}
+
+.modal-body label {
+    margin-bottom: 0;
+}
+
+.sec-content {
+    margin-top: 85%;
+}
+
+
+/* !   -------------------------------- datePicker */
+
+
+
+
+
+
+
+
+
+/* body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #F9A825 !important;
+    background-repeat: no-repeat
+} */
+
+.container {
+    width: 90%;
+    margin:0;
+    padding:0;
+}
+
+input {
+    padding: 10px 15px !important;
+    border: 1px solid lightgrey !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #fff !important;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #512DA8;
+    outline-width: 0
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.datepicker {
+    background-color: #fff;
+    border: none;
+    border-radius: 0 !important
+}
+
+.datepicker-dropdown {
+    top: 0;
+    left: 0
+}
+
+.datepicker table tr td.today,
+span.focused {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#FFF3E0, #FFE0B2)
+}
+
+.datepicker table tr td.today.range {
+    background-image: linear-gradient(#eeeeee, #eeeeee) !important;
+    border-radius: 0 !important
+}
+
+thead tr:nth-child(3) th {
+    font-weight: bold !important;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.dow,
+.old-day,
+.day,
+.new-day {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important
+}
+
+.old-day:hover,
+.day:hover,
+.new-day:hover,
+.month:hover,
+.year:hover,
+.decade:hover,
+.century:hover {
+    border-radius: 50% !important;
+    background-color: #eee
+}
+
+.active {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#90CAF9, #64B5F6) !important;
+    color: #fff !important
+}
+
+.range-start,
+.range-end {
+    border-radius: 50% !important;
+    background-image: linear-gradient(#FFA726, #FFA726) !important
+}
+
+.prev,
+.next,
+.datepicker-switch {
+    border-radius: 0 !important;
+    padding: 10px 10px 10px 10px !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8
+}
+
+.prev:hover,
+.next:hover,
+.datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1
+}
+
+.btn-black {
+    background-color: #37474F !important;
+    color: #fff !important;
+    width: 100%;
+    margin: 3px 0 0 5px;
+}
+
+.btn-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
